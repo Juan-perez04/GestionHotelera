@@ -102,6 +102,7 @@ export const loginUsuario = async (req, res) => {
 export const test = (req, res) => {
     res.json({ mensaje: "🔥 Servidor funcionando correctamente" });
 };
+
 // --- OBTENER TODOS LOS USUARIOS ---
 export const obtenerUsuarios = async (req, res) => {
     try {
